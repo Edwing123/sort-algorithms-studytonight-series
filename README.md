@@ -31,3 +31,8 @@ Following are some sorting techniques:
 4. Quick Sort
 5. Merge Sort
 6. Heap Sort
+
+
+### Bubble Sort
+
+Bubble Sort is a simple algorithm which is used to sort a given set of `n` elements provided in form of an array with `n` number of elements. Bubble Sort compares all the elements one by one and sort them based on their values.

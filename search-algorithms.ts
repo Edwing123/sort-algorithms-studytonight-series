@@ -1,8 +1,8 @@
-const binarySearch = (arr, len, target) => {
+const binarySearch = <T>(arr: T[], len: number, target: T) => {
   let max = len - 1
   let min = 0
 
-  let guess
+  let guess: number
   let step = 0
 
   while (max >= min) {
@@ -22,7 +22,7 @@ const binarySearch = (arr, len, target) => {
   return -1
 }
 
-const linearSearch = (arr, len, target) => {
+const linearSearch = <T>(arr: T[], len: number, target: T) => {
   for (let i = 0; i < len; i++) {
     if (arr[i] === target) {
       return i
@@ -33,7 +33,7 @@ const linearSearch = (arr, len, target) => {
 }
 
 
-function main() {
+function main(): void {
   let numbers = []
 
   for (let i = 1; i <= 2097152; i++) {
