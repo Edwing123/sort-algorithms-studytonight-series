@@ -12,7 +12,7 @@ function bubbleSort<T>(arr: T[], len: number, verbose = false): T[] {
    * we introduce a flag to optimize this algorithm 
    * why ?
    * Sometimes the arr passed will be almost sorted, e.g [1, 2, 3, 5, 4],
-   * just the last element needs to be swapt, but the for loop will iterate
+   * just the last element needs to be swapped, but the for loop will iterate
    * even if the arr is already sorted
    */
   let i: number, j: number, temp: T, flag = 0
@@ -32,7 +32,7 @@ function bubbleSort<T>(arr: T[], len: number, verbose = false): T[] {
         // turning flag to 1
         flag = 1
 
-        verbose && log("Values Swapt")
+        verbose && log("Values Swapped")
       } else {
         verbose && log("No, It is no")
       }
