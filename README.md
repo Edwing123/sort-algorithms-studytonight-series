@@ -23,7 +23,7 @@ Sorting arranges data in a sequence which makes searching easier.
 # Different sorting algorithms
 
 There are many different techniques available for sorting, differentiated by their efficiency and space requirements. 
-Following are some sorting techniques which we will be covering in next few tutorials.
+Following are some sorting techniques:
 
 1. Bubble Sort
 2. Insertion Sort
